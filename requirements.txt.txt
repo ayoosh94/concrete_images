@@ -1,6 +1,0 @@
-flask
-tensorflow
-numpy
-PIL
-io
-gunicorn
