@@ -1,6 +1,6 @@
 flask
 tensorflow
 numpy
-PIL
+Pillow
 io
 gunicorn
