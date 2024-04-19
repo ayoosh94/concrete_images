@@ -7,8 +7,8 @@ from io import BytesIO
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
-
-model = tf.saved_model.load('saved_model.pb')
+MODEL_PATH = 'C:\\Users\\ayoos\\Desktop\\CONCRETE CRACK'
+model = tf.saved_model.load(MODEL_PATH)
 
 @app.route('/', methods=['GET'])
 def home():
